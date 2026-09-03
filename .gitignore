@@ -1,0 +1,58 @@
+# Runtime
+logs/
+*.log
+
+# Data
+data/raw/
+data/cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# SQLite cache/database files
+*.db
+*.db-shm
+*.db-wal
+
+# Generated data
+data/*.csv
+data/*.xlsx
+data/duckdb/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Environment / secrets
+.env
+**/.env
+.env.*
+!.env.example
+
+# Application cache contents only
+app/cache/__pycache__/
+app/cache/*.db
+app/cache/*.db-shm
+app/cache/*.db-wal
+
+# Scanner runtime files
+.scanner_checkpoint.pkl
+
+# Python packaging
+*.egg-info/
+dist/
+build/
